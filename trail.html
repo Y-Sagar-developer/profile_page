@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:white;
+}
+
+
+.container{
+width:80%;
+margin:80px auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+backdrop-filter:blur(10px);     
+background-image: url(./bg.webp);
+background-position: center;
+background-size: cover;
+
+padding:50px;
+border-radius:10px;
+}
+
+
+.leftside{
+text-align:center;
+}
+
+.leftside img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.icons{
+margin-top:20px;
+}
+
+.icons i{
+font-size:24px;
+margin:10px;
+color:white;
+}
+
+
+.rightside{
+color:white;
+text-align:center;
+}
+
+.rightside h1{
+font-size:40px;
+margin-bottom:5px;
+}
+
+.rightside p{
+letter-spacing:3px;
+font-size:14px;
+margin-bottom:30px;
+}
+
+
+.box{
+display:block;
+width:250px;
+margin:15px auto;
+padding:12px;
+border:2px solid white;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.box:hover{
+background:white;
+color:black;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="leftside">
+<img src="profile.jpg" alt="profile">
+
+<div class="icons">
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+</div>
+</div>
+
+<div class="rightside">
+<h1>Astrid Daniels</h1>
+<p>BEAUTY AND FASHION</p>
+
+<a href="#" class="box">ABOUT ME</a>
+<a href="#" class="box">LOOKBOOK</a>
+<a href="#" class="box">COLLABORATIONS</a>
+<a href="#" class="box">WORK WITH ME</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
